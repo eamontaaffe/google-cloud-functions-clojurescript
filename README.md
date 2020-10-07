@@ -1,4 +1,4 @@
-* Google Cloud Functions with ClojureScript
+# Google Cloud Functions with ClojureScript
 
 How to get started with Google Cloud Functions and ClojureScript extremely quickly.
 
