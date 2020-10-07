@@ -1,0 +1,10 @@
+{
+  "name": "cljs-cloud-functions",
+  "main": "index.js",
+  "scripts": {
+    "gcp-build": "lumo -c src build.cljs"
+  },
+  "devDependencies": {
+    "lumo-cljs": "^1.10.1"
+  }
+}
