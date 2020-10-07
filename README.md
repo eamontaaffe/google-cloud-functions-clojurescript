@@ -70,7 +70,7 @@ There you have it, a ClojureScript Cloud Function as quickly as possible. We jus
 
 ```sh
 curl https://<REGION>-<PROJECT>.cloudfunctions.net/<FUNCTION>
-> Hello, world!
+> "Hello, world!"
 ```
 
 Pretty easy right?
