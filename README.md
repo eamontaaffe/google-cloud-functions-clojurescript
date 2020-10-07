@@ -1,6 +1,6 @@
 # Google Cloud Functions with ClojureScript
 
-How to get started with Google Cloud Functions and ClojureScript extremely quickly.
+ClojureScript running on Google Cloud Functions as quickly as possible.
 
 We are going to use the NodeJS runtime along with the awesome [Lumo](http://lumo-cljs.org) ClojureScript compiler. The Lumo compiler is a completely NodeJS based clojurescript compiler that does not require the JVM to run. This means we can use it from within our NodeJS project without installing any external dependencies.
 
