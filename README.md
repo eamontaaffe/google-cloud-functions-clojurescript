@@ -4,7 +4,7 @@ ClojureScript running on Google Cloud Functions as quickly as possible.
 
 We are going to use the NodeJS runtime along with the awesome [Lumo](http://lumo-cljs.org) ClojureScript compiler. The Lumo compiler is a completely NodeJS based clojurescript compiler that does not require the JVM to run. This means we can use it from within our NodeJS project without installing any external dependencies.
 
-## Step one
+## Package
 
 Create a `package.json` file.
 
@@ -22,7 +22,7 @@ Create a `package.json` file.
 
 Notice the `gcp-build` script. This is triggered automatically when we deploy our Cloud Function. Google knows to look for this command and run it after installing the required packages.
 
-## Step two
+## Build
 
 Write our `build.cljs` file.
 
@@ -37,7 +37,7 @@ Write our `build.cljs` file.
 
 This file tells Lumo how to build our project. It itself is just a ClojureScript file. When it is executed, it runs the build command which converts our ClojureScript files into NodeJS files.
 
-## Step three
+## Code
 
 Write some code.
 
@@ -52,7 +52,7 @@ Write some code.
 
 About as simple as it gets. For every request, responde with, "Hello, world!". Cloud Functions uses ExpressJS as a framework, so the request and response objects conform to the ExpressJS specification.
 
-## Step four
+## Deploy
 
 Deploy it.
 
