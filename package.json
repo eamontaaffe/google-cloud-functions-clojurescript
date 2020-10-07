@@ -1,5 +1,6 @@
 {
-  "name": "cljs-cloud-functions",
+  "name": "google-cloud-functions-clojurescript",
+  "license": "Apache-2.0",
   "main": "index.js",
   "scripts": {
     "gcp-build": "lumo -c src build.cljs"
